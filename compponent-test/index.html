@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Direflow Test</title>
+    <script src="../build/direflowBundle.js"></script>
+  </head>
+  <body>
+    <direflow-test></direflow-test>
+  </body>
+  <script>
+    const el = document.querySelector('direflow-test')
+    el.testObj = { myVal: 123 }
+    el.testBool = false
+  </script>
+</html>
