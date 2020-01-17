@@ -14,7 +14,7 @@ interface IProps {
 const App: FC<IProps> = (props) => {
   console.log(props);
   return (
-    <Styled styles={css}>
+    <Styled styles={[css, scss, sass]}>
       <div>
         hello world
       </div>
